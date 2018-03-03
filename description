@@ -1,0 +1,25 @@
+1. TASK
+In the Index.php file there are four classes that determine Human.
+* Class Human
+    - Basic class Human has function getManProfile which returns array of human`s attributes.
+    - That attributes can be saved using function saveManProfile.
+    - Function getBloodSteamData (simulates human`s blood steam) calls function getBloodCount which gets data response
+      from the API and creates blood count report for the certain person. Each person is uniquely determined with pin.
+    - There are also functions getInfo and setInfo that are used to get and save data from db. In the our case this is
+      a simulation of brain process of recollection and memories.
+* Class Temperament
+    This Class inherits Class Human.
+    We can use function getManBehavior of this Class to get certain human`s behavior based on temperament characteristics.
+* Class Gender
+    This Class inherits Class Human.
+    Function saveAdditionalData is used to save additional data related to human's gender.
+* Class Race
+    This Class inherits Class Human.
+    Class has a function getCulturalLabelsDeterminedByRace that we use to get cultural labels determined by race
+    category.
+
+In order to present mentioned classes we provide en example (Object human is created with certain data).
+
+
+2. TASK
+At the end of Index.php file you can also find and result for the second task.
